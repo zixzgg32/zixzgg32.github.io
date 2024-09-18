@@ -1,0 +1,154 @@
+.container {
+    margin: 3%;
+    border-radius: 25px;
+    align-self: center;
+    background-color: rgb(255, 255, 255);
+    padding: 2%;
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-between;
+}
+
+.receipt {
+    background-color: rgb(218, 89, 89);
+    border-radius: 25px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.kepalareceipt {
+
+}
+
+.pesanan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gambaritem img {
+    border-radius: 9px;
+    width: 100%;
+    margin: 5px;
+    align-self: center;
+}
+
+.namaitem {
+    margin: 5px;
+    padding: 10px;
+    flex-grow: 1;
+    align-self: center;
+}
+
+.hargaitem {
+    margin: 5px;
+}
+
+.box {
+    border-radius: 25px;
+    padding: 50px 50px;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.harga {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.totalharga {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.fonttema {
+    font-family: "Inria Sans", sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    margin: 10px;
+}
+
+.fontharga {
+    font-family: "Inria Sans", sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(243, 243, 243);
+}
+
+.fontitem {
+    font-family: "Inria Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+.fonthitungharga {
+    font-family: "Inria Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(243, 243, 243);
+}
+
+.fonttotalharga {
+    font-family: "Inria Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+.fonttemaluar {
+    font-family: "Inria Sans", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(218, 89, 89);
+    margin: 10px;
+    align-self: center;
+}
+
+.fontkecilluar {
+    font-family: "Inria Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(218, 89, 89);
+    align-self: center;
+    margin: 10px;
+}
+
+.fontteballuar {
+    font-family: "Inria Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(218, 89, 89);
+    align-self: center;
+    margin: 10px;
+}
+
+.boxluaratas {
+    align-self: center;
+    height: 50%;
+}
+
+.boxluarbawah {
+    height: 50%;
+}
